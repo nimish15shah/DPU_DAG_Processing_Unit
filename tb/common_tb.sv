@@ -21,19 +21,8 @@
 
   // Include DUT files
 `ifdef GATE_NETLIST
-  `include "/users/micas/micas/design/tsmc28hpcplus/libs/TSMCHOME/digital/Front_End/verilog/tcbn28hpcplusbwp12t30p140hvt_170a/tcbn28hpcplusbwp12t30p140hvt.v"
-  `include "/users/micas/micas/design/tsmc28hpcplus/libs/TSMCHOME/digital/Front_End/verilog/tcbn28hpcplusbwp12t30p140lvt_170a/tcbn28hpcplusbwp12t30p140lvt.v"
-  `include "/users/micas/micas/design/tsmc28hpcplus/libs/TSMCHOME/digital/Front_End/verilog/tcbn28hpcplusbwp12t30p140ulvt_170a/tcbn28hpcplusbwp12t30p140ulvt.v"
-  `include "/users/micas/micas/design/tsmc28hpcplus/libs/TSMCHOME/digital/Front_End/verilog/tcbn28hpcplusbwp12t30p140_170a/tcbn28hpcplusbwp12t30p140.v"
-//  `include "/users/micas/nshah/Downloads/PhD/Academic/Bayesian_Networks_project/Hardware_Implementation/Auto_RTL_Generation/HW_files/BackEnd/DesignDataIn/netlist/pru_async_top_post_cts.v"
-//  `include "/users/micas/nshah/Downloads/PhD/Academic/Bayesian_Networks_project/Hardware_Implementation/Auto_RTL_Generation/HW_files/BackEnd/DesignDataIn/netlist/pru_async_top.sta.v"
-  /* `include "/users/micas/nshah/Downloads/PhD/Academic/Bayesian_Networks_project/Hardware_Implementation/Auto_RTL_Generation/HW_files/BackEnd/DesignDataIn/netlist/pru_async_top_SVT_512_1024_32_16_compiled.v" */
-  /* `include "/esat/jupiter1/users/nshah/bayesian_network/hardware/backend//floorplan/netlist_with_data_gating_in_regs.v" */
-  /* `include "/esat/centauri1/users/nshah/bayesian_network/hardware/backend/placeroute/optRoute.v" */
-  `include "/volume1/users/nshah/bayesian_network/hardware/backend/placeroute/optRoute.v"
-  /* `include "/users/micas/nshah/Downloads/PhD/Academic/Bayesian_Networks_project/Hardware_Implementation/Auto_RTL_Generation/HW_files/BackEnd/DesignDataIn/netlist/pru_async_top_SVT_512_1024_32_16_Wed_Mar_25_04-05-33_CET_2020_compiled.v" */
-//  `include "/users/micas/nshah/Downloads/PhD/Academic/Bayesian_Networks_project/Hardware_Implementation/Auto_RTL_Generation/HW_files/BackEnd/DesignDataIn/netlist/optRoute.v"
-
+ // Path to STD CELL libraries and memory model
+ // Path to the gate netlist
 `else
   `include "pru_async_top.sv"
 `endif
