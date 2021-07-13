@@ -16,13 +16,7 @@
 
 // Do not enable following for synthesis, only use for simulation
 `ifdef VERILOG_MODELS
-  `include "/users/micas/micas/design/tsmc28hpcplus/memories/Front_end/ts1n28hpcphvtb1024x32m4swbaso_180a/VERILOG/ts1n28hpcphvtb1024x32m4swbaso_180a_tt0p9v25c.v"
-  `include "/users/micas/micas/design/tsmc28hpcplus/memories/Front_end/ts1n28hpcphvtb512x32m4swbaso_180a/VERILOG/ts1n28hpcphvtb512x32m4swbaso_180a_tt0p9v25c.v"
-//  `include "/users/micas/micas/design/tsmc28hpcplus/memories/Front_end/ts1n28hpcphvtb256x32m4swbaso_180a/VERILOG/ts1n28hpcphvtb256x32m4swbaso_180a_tt0p9v25c.v"
-  `include "/users/micas/micas/design/tsmc28hpcplus/memories/Front_end/ts1n28hpcphvtb1024x24m4swbaso_180a/VERILOG/ts1n28hpcphvtb1024x24m4swbaso_180a_tt0p9v25c.v"
-  `include "/users/micas/micas/design/tsmc28hpcplus/memories/Front_end/ts1n28hpcphvtb512x24m4swbaso_180a/VERILOG/ts1n28hpcphvtb512x24m4swbaso_180a_tt0p9v25c.v"
-//  `include "/users/micas/micas/design/tsmc28hpcplus/memories/Front_end/ts1n28hpcphvtb256x24m4swbaso_180a/VERILOG/ts1n28hpcphvtb256x24m4swbaso_180a_tt0p9v25c.v"
-  `include "/users/micas/micas/design/tsmc28hpcplus/libs/TSMCHOME/digital/Front_End/verilog/tphn28hpcpgv18_110a/tphn28hpcpgv18.v"
+ // Path to STD CELL LIBRARIES and MEMORY MODELS
 `endif
 
 package hw_pkg;
